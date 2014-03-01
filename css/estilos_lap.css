@@ -3,6 +3,15 @@
 	height: 1000px;
 	background-repeat: no-repeat;
 	line-height: 500px;
+	background-attachment: fixed;/* para que la imagen quede fija*/
+	background-size: cover; /* para que la imagen cubra todo el espacio*/
+
+/*sombra en el texto*/
+	text-shadow:0px 0px 10px; green;
+	-moz-text-shadow:0px 0px 3px; green;
+	-webkit-text-shadow:0px 0px 3px; green;
+	-o-text-shadow:0px 0px 3px; green;
+	-ms-text-shadow:0px 0px 3px; green;
 }
 
 .frase{
@@ -21,4 +30,92 @@
 
 #suscribirse label {
 	width: 40%;
+}
+
+
+
+/* TRANSFORMACIONES PARA LAS IMAGENES DE FRASES*/
+
+.frase img:hover{
+	transform:scale(1.5);
+	-moz-transform:scale(1..5);
+	-webkit-transform: scale(1.5);
+	-o-transform:scale(1.5);
+	-ms-transform:scale(1.5); 
+	
+	/*transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	*/
+	/*transform:translateX(5em);
+	-moz-transform:translateX(5em);
+	-webkit-transform: translateX(5em);
+	-o-transform:translateX(5em);
+	-ms-transform:translateX(5em);*/
+}
+/* TRANSICIÓN PARA LAS IMAGENES DE FRASES*/
+
+.frase img{
+/*  transicion  a que transformacion, tiempo de la transformacion, movimiento en la transicion   */
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	
+/*en ves de easy se obtienen movimiento de esta pagina http://cubic-bezier.com/#.08,.71,.83,.67*/
+	/*transition: all 0.5s cubic-bezier(.08,.71,.83,.67);
+	-moz-transition: all 0.5s cubic-bezier(.08,.71,.83,.67);
+	-webkit-transition: all 0.5s cubic-bezier(.08,.71,.83,.67);
+	-o-transition: all 0.5s cubic-bezier(.08,.71,.83,.67);
+	-ms-transition: all 0.5s cubic-bezier(.08,.71,.83,.67);*/
+	
+}
+
+#redes-sociales{
+	position:fixed;
+	bottom:1.5em;
+	right:0.5em;
+	background-color:orange;
+	opacity:0.7;
+	padding: 0.5em;
+/*esquinas redondas siempre es en pixeles*/
+
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	
+/*para dar tamaño de esquinaredondeada en pixeles a cada esquina
+ border-radius:5px 10px 15px 20px;
+	-moz-border-radius:5px 10px 15px 20px;
+	-webkit-border-radius:5px 10px 15px 20px;
+	-o-border-radius:5px 10px 15px 20px;
+	-ms-border-radius:5px 10px 15px 20px;
+	
+  */
+ 
+ /*sombra siempre es en pixeles*/
+/*slos primeros atributos son en eje x y eje Y, los otros dos atributos es el ancho y difuminado de sombra*/
+	box-shadow:10px 10px 0px 1px gray;
+	-moz-box-shadow:10px 10px 0px 1px gray;
+	-webkit-box-shadow:10px 10px 0px 1px gray;
+	-o-box-shadow:10px 10px 0px 1px gray;
+	-ms-box-shadow:10px 10px 0px 1px gray;
+}
+
+header{
+	position:fixed;
+	top:0px;
+	right: 0px;
+	width:100%;
+	
+	
+}
+
+#div_vacio{
+	height: 90px;
 }
