@@ -1,7 +1,14 @@
 body {
 	/*1em = 20px*/
 	font-size: 100%;
-	font-family: "Monda";
+	font-family: 'SohoGothicStd-LightItalic';
+}
+@font-face {
+	font-family: 'SohoGothicStd-LightItalic';
+	src: url('..fuentes/SohoGothicStd-LightItalic.eot?') format('eot'), 
+	     url('..fuentes/SohoGothicStd-LightItalic.woff') format('woff'), 
+	     url('..fuentes/SohoGothicStd-LightItalic.ttf')  format('truetype'),
+	     url('..fuentes/SohoGothicStd-LightItalic.svg#SohoGothicStd-LightItalic') format('svg');
 }
 /*selector de etiqueta*/
 header, footer {

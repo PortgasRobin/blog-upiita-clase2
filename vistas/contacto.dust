@@ -1,0 +1,66 @@
+<!doctype html>
+<!-- esto es un comentario -->
+<html>
+    <head>
+        <meta charset= "UTF-8"/>
+        <title>Mi página</title>
+        <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+        <link href="imagenes/favicon.ico" rel="shortcut icon"/>
+        <link href="css/normalize.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_all.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_lap.css" rel="stylesheet" media="screen and (min-width:600px)"/>
+        <link href="css/estilos_moviles.css" rel="stylesheet" media="screen and (max-width:600px)"/>
+    </head>
+    <body>
+        <!-- contenido de la página -->
+        
+        <!-- se coloca un div vacio para que el header flote sobre este div y no sobre la imagen-->
+       <div id="div_vacio"></div>
+       
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        Inicio
+                    </li>
+                    <li>
+                        Productos
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        Acerca
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <br><br/><br/>
+        <section id="contacto">
+            <div id="contacto">
+            	<form action="/contacto" method="post">
+            		<label for="nombre">Nombre:</label>
+            		<input id="email" type="text" name="nombre" />
+            		<label for="Edad">Edad:</label>
+            		<input id="edad" type="text" name="edad" />
+            		<label for="website">website:</label>
+            		<input id="website" type="text" name="website" />
+            		<label for="email">email:</label>
+            		<input id="email" type="text" name="email" />
+            		<label for="Comentario">Comentario:</label>
+            		<textarea id="comentario" name="comentario" ></textarea>
+            		
+            		
+               		
+               		
+               		
+               		
+               		
+               		
+               		<input value="enviar" type="submit" />
+            		
+            	</form>
+        </section>
+       
+    </body>
+</html>

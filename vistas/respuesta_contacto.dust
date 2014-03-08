@@ -1,0 +1,59 @@
+<!doctype html>
+<!-- esto es un comentario -->
+<html>
+    <head>
+        <meta charset= "UTF-8"/>
+        <title>Mi página</title>
+        <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+        <link href="imagenes/favicon.ico" rel="shortcut icon"/>
+        <link href="css/normalize.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_all.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_lap.css" rel="stylesheet" media="screen and (min-width:600px)"/>
+        <link href="css/estilos_moviles.css" rel="stylesheet" media="screen and (max-width:600px)"/>
+    </head>
+    <body>
+        <!-- contenido de la página -->
+        
+        <!-- se coloca un div vacio para que el header flote sobre este div y no sobre la imagen-->
+       <div id="div_vacio"></div>
+       
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        Inicio
+                    </li>
+                    <li>
+                        Productos
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        Acerca
+                    </li>
+                </ul>
+            </nav>
+        </header>
+      <section>
+      <p>Gracias por contactarnos!!!!!!!!!!!!!NOMbre:  {nombre}<br/>
+      Edad: {edad}<br>website:{website}<br>comentario<br>{comentario}</p>
+      </section>
+      
+      
+        <footer>
+            <div id="derechos">
+                <p>
+                    Mi página, derechos reservados
+                </p>
+                <div id="redes-sociales">
+                    <img src="imagenes/facebook.png" />
+                    <img src="imagenes/twitter.png"/>
+                    <img src="imagenes/googleplus.png"/>
+                    <img src="imagenes/youtube.png"/>
+                </div>
+            </div>
+           
+        </footer>
+    </body>
+</html>
