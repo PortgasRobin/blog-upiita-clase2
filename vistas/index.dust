@@ -85,6 +85,7 @@
             		<label for="email">Suscríbete:</label>
                		<input id="email" type="text" name="email" />
                		<input value="enviar" type="submit" />
+               		<textarea></textarea>
             		
             	</form>
             	
